@@ -1,7 +1,6 @@
 # electron-next
 
 [![Build Status](https://travis-ci.org/leo/electron-next.svg?branch=master)](https://travis-ci.org/leo/electron-next)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 This package lets you use [Next.js](https://github.com/zeit/next.js) for building the renderer of your [Electron](https://electron.atom.io) apps!
 
@@ -13,7 +12,7 @@ This package lets you use [Next.js](https://github.com/zeit/next.js) for buildin
 Firstly, install the package using any node package manager:
 
 ```bash
-yarn add electron-next
+pnpm add electron-next
 ```
 
 Then load it:
@@ -40,3 +39,4 @@ await prepareRenderer(<path>, <port>)
 ## Author
 
 - Leo Lamprecht ([@notquiteleo](https://twitter.com/notquiteleo))
+- Akara Chen ([@akarachen](https://twitter.com/object_nullll))

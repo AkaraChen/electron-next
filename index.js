@@ -7,6 +7,11 @@ const { app, protocol } = require('electron')
 const isDev = require('electron-is-dev')
 const { resolve } = require('app-root-path')
 
+/**
+ * 
+ * @param {string} dir 
+ * @param {number?} port 
+ */
 const devServer = async (dir, port) => {
   // We need to load it here because the app's production
   // bundle shouldn't include it, which would result
@@ -28,6 +33,10 @@ const devServer = async (dir, port) => {
   })
 }
 
+/**
+ * 
+ * @param {string} directory 
+ */
 const adjustRenderer = directory => {
   const paths = ['/_next', '/static']
   const isWindows = process.platform === 'win32'
@@ -66,6 +75,12 @@ const adjustRenderer = directory => {
   })
 }
 
+/**
+ * 
+ * @param {string | string[]} directories 
+ * @param {number} port 
+ * @returns 
+ */
 module.exports = async (directories, port) => {
   if (!directories) {
     throw new Error('Renderer location not defined')

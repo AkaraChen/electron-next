@@ -1,0 +1,20 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  app-root-path:
+    specifier: '>=2.0.1'
+    version: 2.0.1
+  electron-is-dev:
+    specifier: ^0.3.0
+    version: 0.3.0
+
+packages:
+
+  /app-root-path@2.0.1:
+    resolution: {integrity: sha512-7db7ZhEdif/kyt4vC5lBaAPp0poVvwOfmCclDwHeSmTCVM2oolfSs49giGpHZm7DYCaAjLqPc4CWbT1VO6Xihw==}
+    engines: {node: '>= 4.0.0'}
+    dev: false
+
+  /electron-is-dev@0.3.0:
+    resolution: {integrity: sha512-jLttuuq8QK67n3mXmIe9pkrO7IH3LGIk12xJkhTmc852U2sCJaRAOpRGPSh+1Xnzck5v9escd9YXzuze9nGejg==}
+    dev: false
