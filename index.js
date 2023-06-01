@@ -77,7 +77,7 @@ const adjustRenderer = directory => {
 
 /**
  * 
- * @param {string | string[]} directories 
+ * @param {string | Record<'production' | 'development', string>} directories 
  * @param {number} port 
  * @returns 
  */
